@@ -1,0 +1,55 @@
+HTML upprepning: 
+
+html > head + body 
+
+
+https://dribbble.com/  
+
+block vs inline 
+
+CSS introduction:-
+
+
+tag selector- 1
+class selector- 10
+id selector:- 100
+
+Universal selector * 
+
+gäller inte för inline element:
+      1. margin-top
+      2. margin-bottom
+      3. padding-top
+      4. height 
+      5. width
+
+
+===
+
+HTML formulär: 
+cmd+ d  
+ctrl + d
+
+HTML , CSS kommentar:- 
+
+css kommentar: /*  */ 
+Html kommentar: <!-- -->
+
+picture, figure, video, embedding video och audio.
+
+
+closing tag, non-closing, self-closing tag
+
+
+Nästa lektion: 
+Box modell fort. display: inline, block, inline-block 
+Positionering:-
+Det finns 4 vanliga typer av css positionering: 
+Static   - default 
+Fixed    - man behöver left, right, top, bottom properties/egenskaper . Den placeras i en bestämd plats i Viewport/skärmen. Även om man scrollar ner eller upp element ska visas på samma position. 
+Relative - man behöver left, right, top, bottom properties/egenskaper. Den placeras till en plats beroende på left right top bottom relative till dennes original plats.
+Absolute - man behöver left, right, top, bottom properties/egenskaper. Följer relative till sin parent element och parent element måste vara relative.
+
+alt. 
+
+flexbox.
