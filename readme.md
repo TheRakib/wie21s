@@ -23,14 +23,6 @@
 
 </div>
 
-Det finns 4 vanliga typer av css positionering: 
-static -default 
-
-fixed    - man behöver left, right, top, bottom properties/egenskaper . Den placeras i en bestämd plats i Viewport/skärmen. Även om man scrollar ner eller upp element ska visas på samma position. 
-
-relative  - man behöver left, right, top, bottom properties/egenskaper. Den placeras till en plats beroende på left right top bottom relative till dennes original plats.
-
-absolute    - man behöver left, right, top, bottom properties/egenskaper. Följer relative till sin parent element och parent element måste vara relative.
 
 
 

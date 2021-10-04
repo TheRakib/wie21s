@@ -1,0 +1,76 @@
+* Boxmodell upprepning samt fort. 
+
+
+* Pseudo-class selector
+
+a:visited {
+  color: green;
+}
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+övning: till 9.40
+
+pause mellan 9.40 -10.00 
+
+
+* Text css:-
+text-decoration
+text-transform
+text-align
+
+
+* CSS position: 
+
+
+fyra positionering egenskap:- 
+     
+     static
+     relative:- 
+     absolute 
+     fixed 
+    
+     (sticky)
+
+Det finns 4 vanliga typer av css positionering: 
+static -default 
+
+fixed    - man behöver left, right, top, bottom properties/egenskaper . Den placeras i en bestämd plats i Viewport/skärmen. Även om man scrollar ner eller upp element ska visas på samma position. 
+
+relative  - man behöver left, right, top, bottom properties/egenskaper. Den placeras till en plats beroende på left right top bottom relative till dennes original plats.  Relative position : behåller sin original plats när den flyttar 
+
+absolute  - man behöver left, right, top, bottom properties/egenskaper. Följer relative till sin parent element och parent element måste vara relative.
+
+
+pause samt lunch ??? 
+
+
+flexbox intro :
+https://flexboxfroggy.com/#sv
+
+
+
+* combining css selector
+
+
+13:00 
+Media queries. 
+https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/
+
+bootstrap: 
+https://getbootstrap.com/docs/5.1/layout/breakpoints/#media-queries
+
+
+
+Mobile first design 
+
+
+

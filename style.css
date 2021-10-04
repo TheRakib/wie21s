@@ -3,6 +3,96 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+.header {
+    background-image: url("./bilder/kaffe.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+
+    position: relative;
+}
+
+.rubrik {
+    color: whitesmoke;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+@media (max-width: 570px) {
+    
+    
+    body{
+        background-color: blue;
+    }  
+
+
+    .header{
+    background-image: url("./bilder/blomma.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; 
+    }
+}
+
+
+/* 
+
+vh / vw
+div.parent{
+
+    border: 2px solid gray;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraf {
+
+    height: 200px;
+    width: 200px;
+    margin: 2px;
+  
+
+}
+
+
+
+div.paragraf, div.parent {
+
+    color: red;
+    font-size: 30px;
+}
+
+.paragraf, .parent {
+    color: green;
+    font-size: 300px;
+}
+ */
+
+/* tag 1 , class 10 , id 100 */
+
+
+
+
 /* article's paragraph design */
 /*  .paragraf, div  {
     border: 2px solid black;
@@ -40,7 +130,7 @@ h1:hover{
 
 
 
-h1{
+/* h1{
     margin:10px;
    
 
@@ -51,15 +141,50 @@ span{
     display: inline-block;
     margin-top:100px;
     height:100px;
-    width:100px;
+    border:2px solid black;
+    width:1000px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    padding-top: 40px;
 }
 
 a {
  text-decoration: none;
  font-size: 30px;
 }
+ */
+/* 
+.parent {
+    position: relative;
+    height: 800px;
+    width: 800px;
+    border: 2px solid black; 
+}
 
-a:hover{
+.paragraf {
+   
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin:2px;
+}
+
+
+.box1 {
+    top:250px;
+    left: 200px;
+    background-color: blueviolet;
+   /*  z-index: 100; */
+/*}
+
+.box2 {
+     top: 250px;
+     left: 402px;
+      background-color: brown;
+} */
+/* a:hover{
     font-size: 200px;
     color: red;
 }
@@ -71,10 +196,12 @@ a:visited {
 
  font-size: 50px;
  color: #FFBFA0; 
-}
+} */
 
-span:hover{
+/* span:hover{
   font-size: 50px;
   color: #FFBFA0; 
 }
+ */
+
 
