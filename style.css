@@ -2,21 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size:10px;
 }
 
-
+div.text{
+    width: 50rem;
+    height: 10rem;
+    border: 2px solid black;
+    font-size: 2rem;
+}
+ 
 
 .header {
     background-image: url("./bilder/kaffe.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
     height: 90vh;
+    width: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column; 
-
     position: relative;
 }
 
@@ -27,7 +35,6 @@
     top: 50%;
     left:50%;
     transform: translate(-50%,-50%);
-
 }
 
 
@@ -45,6 +52,7 @@
     background-position: center;
     background-size: cover;
     height: 60vh;
+    
     display: flex;
     justify-content: center;
     align-items: center;

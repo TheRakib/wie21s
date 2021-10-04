@@ -71,6 +71,13 @@ https://getbootstrap.com/docs/5.1/layout/breakpoints/#media-queries
 
 
 Mobile first design 
+Nästa lektion 
+*** 
+Upprepning, Bootstrap, Material UI, Flexbox 
+***
 
+######## 
+Handledning till 16.00 
 
-
+###
+https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/welcome
