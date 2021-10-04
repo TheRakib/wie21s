@@ -1,0 +1,30 @@
+* Boxmodell upprepning samt fort. 
+
+
+* Pseudo-class selector
+
+a:visited {
+  color: green;
+}
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+övning: till 9.40
+
+pause mellan 9.40 -10.00 
+
+
+* Text css 
+
+* combining css selector
+
+* CSS position
+

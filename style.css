@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 /* article's paragraph design */
- .paragraf, div  {
+/*  .paragraf, div  {
     border: 2px solid black;
     margin-top: 15px;
     margin-left: 100px;
@@ -12,7 +12,7 @@
     margin-bottom: 100px;
     padding-top: 100px;
     height: 200px;
-} 
+}  */
 /*
 .span-text {
     border: 2px solid green;
@@ -37,3 +37,44 @@ h1:hover{
     transform: rotate(180deg);
     
 } */
+
+
+
+h1{
+    margin:10px;
+   
+
+}
+
+
+span{
+    display: inline-block;
+    margin-top:100px;
+    height:100px;
+    width:100px;
+}
+
+a {
+ text-decoration: none;
+ font-size: 30px;
+}
+
+a:hover{
+    font-size: 200px;
+    color: red;
+}
+a:active{
+    font-size: 50px;
+    color: green;
+}
+a:visited {
+
+ font-size: 50px;
+ color: #FFBFA0; 
+}
+
+span:hover{
+  font-size: 50px;
+  color: #FFBFA0; 
+}
+
