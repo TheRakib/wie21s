@@ -11,14 +11,16 @@ div.text{
     border: 2px solid black;
     font-size: 2rem;
 }
- 
+
+.navtext {
+    font-family: 'Ephesis', cursive;
+}
 
 .header {
     background-image: url("./bilder/kaffe.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
     height: 90vh;
     width: 60vh;
     display: flex;
@@ -26,6 +28,8 @@ div.text{
     align-items: center;
     flex-direction: column; 
     position: relative;
+
+
 }
 
 .rubrik {
@@ -36,29 +40,9 @@ div.text{
     left:50%;
     transform: translate(-50%,-50%);
 }
+/* @media device type and rules/breakpoints { new rules    } */
 
 
-@media (max-width: 570px) {
-    
-    
-    body{
-        background-color: blue;
-    }  
-
-
-    .header{
-    background-image: url("./bilder/blomma.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 60vh;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row; 
-    }
-}
 
 
 /* 
@@ -211,5 +195,95 @@ a:visited {
   color: #FFBFA0; 
 }
  */
+
+
+.fixed {
+    background-color: blueviolet;
+    z-index: 1;
+    width: 20rem;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.flex {
+    height: 90vh;
+    border: 2px solid black;
+    display: flex;
+   
+
+}
+
+.flex-item {
+    background-color: firebrick;
+    margin: 2px;
+    height: 15rem;
+   flex-basis: 10rem;
+    font-size: 36px;
+    
+}
+
+.item4 {
+  
+  flex: 2 1 auto;
+
+}
+.item3 {
+    flex-shrink: 2;
+}
+/* 
+flexbox/parent egenskaper:- 
+==========================================
+display:flex
+flex-direction: row, column, row-reverse , column-reverse
+
+justify-content: space-around, space-evenly, space-between, 
+                  flex-start, flex-end, center
+align-items:     baseline, flex-start, flex-end, center, stretch
+   
+flex-wrap: wrap, nowrap, wrap-reverse. 
+==========================================
+ 
+
+flex-items egenskaper:- 
+============================
+order: -1,  siffror (funkar både - och + value) 
+align-self:- center, flex-start, flex-end, baseline
+
+flex-basis: width for flex-items 
+flex-grow: siffror
+flex-shrink: siffor           ==>>> shorthand: flex: grow shrink basis 
+======================
+
+
+testa: 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+*/
+
+
+
+
+
+@media  (max-width: 570px) {
+    
+    .header{
+    background-image: url("./bilder/blomma.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; 
+    }
+
+
+}
 
 

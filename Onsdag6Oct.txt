@@ -1,0 +1,55 @@
+* Upprepning : positionering:
+
+relative: flyttar från original plats till top, bottom, right and left. 
+
+absoulte: när den flyttar lämnar sin gammalplats. parent måste ha relative position. 
+
+fixed: 
+
+**sticky
+
+
+
+flex:
+/* 
+flexbox/parent egenskaper:- 
+==========================================
+display:flex
+flex-direction: row, column, row-reverse , column-reverse
+
+justify-content: space-around, space-evenly, space-between, 
+                  flex-start, flex-end, center
+align-items:     baseline, flex-start, flex-end, center, stretch
+   
+flex-wrap: wrap, nowrap, wrap-reverse. 
+==========================================
+
+flex-items egenskaper:- 
+============================
+order: -1,  siffror (funkar både - och + value) 
+align-self:- center, flex-start, flex-end, baseline
+
+flex-basis: width for flex-items 
+flex-grow: siffror
+flex-shrink: siffor           ==>>> shorthand: flex: grow shrink basis 
+======================
+
+testa: 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+*/
+
+*** media queries:- 
+breakpoints
+
+
+* Bootstrap/ Material UI:- 
+
+* google fonts. 
+
+
+
+
+
+
