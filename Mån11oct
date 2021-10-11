@@ -23,7 +23,9 @@
      git push origin main/master 
 
 
-     
+tar bort befientlig remote repository : 
+git remote remove origin
+
 
 
 
