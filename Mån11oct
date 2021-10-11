@@ -1,0 +1,34 @@
+* Git upprepning
+     git setup: 
+     git config --global user.name "username"
+     git config --global user.email "usermail@ex.se"
+
+     github setup:
+     skapa en github konto
+     ge auth till local git.
+
+=======
+=======
+
+     git init en gång per projekt. 
+
+     git i dagliga arbetet: 
+
+     git add .  
+     git commit -m "skriver man vettigt meddelande"
+
+
+     git remote add origin github-https-adressen (en gång per projekt)
+     git branch -M main (en gång per projekt)
+     git push origin main/master 
+
+
+     
+
+
+
+lunch mellan 11.30-12.30
+
+12.30- 13.30: git upprepning  och git lektion 2 
+
+13.30- 16.00 Handledning

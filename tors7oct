@@ -1,5 +1,23 @@
 
- **  git init // sätta igång git i projektet 
-
- ** git add filenamn/foldernamn/ .  // git stage
  
+ 
+ ** git init // sätta igång git i projektet  (gör man engång)
+
+ ** git add filenamn/foldernamn/ .  // git stage (ofta )
+
+ ** git commit -m "meddelande"  // gör man ofta
+
+
+github:
+git remote add origin http://******.git 
+git branch -M main
+git push origin main 
+
+
+
+*** git add . 
+** git commit -m "meddelande"
+** git push origin main
+
+// tar in remote unrelated filerna in i local repo/mapp/folder
+git pull origin main --allow-unrelated-histories
