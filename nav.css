@@ -48,7 +48,7 @@
         display: block;
     }
 
-    #toggle:checked + .menu ul {
+    #toggle:checked + .menu-list {
         display: flex;
         justify-content: space-around;
         flex-direction: column;
