@@ -11,8 +11,7 @@ fixed:
 
 
 flex:
-/* 
-flexbox/parent egenskaper:- 
+/* flexbox/parent egenskaper:- 
 ==========================================
 display:flex
 flex-direction: row, column, row-reverse , column-reverse

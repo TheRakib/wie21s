@@ -1,0 +1,29 @@
+/* 
+h1{
+    background: goldenrod;
+    width: 200px;
+    margin: auto;
+    animation: simpleAnimation 5s infinite;
+    
+}
+
+/*  0% av duration av amination
+   0% av 10s = 0s*/
+
+
+   /*
+
+@keyframes simpleAnimation {
+   0% {
+
+     transform: skewY(50deg)
+     
+    }
+
+    50% {
+        transform: skewY(2deg)
+    }
+    100% {
+        transform: skewX(0deg)
+    }
+} */

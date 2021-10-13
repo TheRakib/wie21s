@@ -1,0 +1,65 @@
+
+* Upprepning git & branch :- 
+
+git init 
+
+git add . 
+git commit -m "sparar vi ändringarna"
+
+
+git remote add origin "adressen till github"  
+
+git push origin main 
+
+
+git pull origin main // för att kolla ändringarna i molnet innan man pushar 
+
+
+git branch :- 
+
+för att kunna skapa branch :
+ git branch branchnamn //skapar man branch med namnet branchnamn
+ git checkout branchnamn // här byter man branch till branchnamn
+
+git push origin branchnamn //sparar man branchnamn branchen i molnet/github
+
+
+lägger ihop alla ändringarna: 
+
+då byter man till main branch:  
+git checkout main 
+
+git merge branchnamn // lägger ihop branchnamn och main branch ändringarna
+
+konflikter:
+============
+
+* Upprepa flexbox:
+
+
+
+
+
+
+
+
+
+* CSS animation :
+
+@keyframes
+translate: 
+
+ 
+
+, Rotate, Skew, scale 
+
+
+// https://developer.mozilla.org/en-US/docs/Web/CSS/animation
+
+kl. 10.00 
+
+
+* Bygga en menu med flexbox 
+
+=========================================== 
+SCSS/SASS, GRID, p::selector /before, after 
