@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    background-color: black;
+    font-size: 1.2rem;
+    color:white;
+}
+
+.menu ul li {
+    cursor: pointer;
+    list-style: none;
+    margin: .3rem;
+  
+    
+}
+
+.menu ul li:hover { 
+  font-size: 24px;
+  background-color: white;
+  color:black;
+}
+
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media  (max-width:570px) {
+    .menu ul {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu ul li:hover {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+}
+

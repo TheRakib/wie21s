@@ -47,19 +47,21 @@ konflikter:
 * CSS animation :
 
 @keyframes
-translate: 
 
- 
-
-, Rotate, Skew, scale 
+transform:
+translate, Rotate, Skew, scale 
 
 
 // https://developer.mozilla.org/en-US/docs/Web/CSS/animation
 
-kl. 10.00 
+kl. 11.00 
 
 
 * Bygga en menu med flexbox 
 
+
+Det ska finnas hamburger nav menu ; 
+i default när man kommer in i en small device ska man vissa display: none till ul 
+men när man checkar in ska man visa igen display:flex;
 =========================================== 
 SCSS/SASS, GRID, p::selector /before, after 
