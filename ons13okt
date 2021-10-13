@@ -65,3 +65,6 @@ i default när man kommer in i en small device ska man vissa display: none till 
 men när man checkar in ska man visa igen display:flex;
 =========================================== 
 SCSS/SASS, GRID, p::selector /before, after 
+
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/:checked

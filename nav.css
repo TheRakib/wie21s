@@ -30,17 +30,29 @@
     justify-content: space-around;
 }
 
+.hamburger, #toggle{
+    display: none;
+}
+
 @media  (max-width:570px) {
     .menu ul {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        align-items: center;
+        display: none;
+       
     }
     .menu ul li:hover {
         display: flex;
         justify-content: center;
         width: 100vw;
+    }
+    .hamburger{
+        display: block;
+    }
+
+    #toggle:checked + .menu ul {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
