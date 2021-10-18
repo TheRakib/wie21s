@@ -10,7 +10,7 @@
     color:white;
 }
 
-.menu ul li {
+.menu-list li {
     cursor: pointer;
     list-style: none;
     margin: .3rem;
@@ -18,14 +18,13 @@
     
 }
 
-.menu ul li:hover { 
+.menu-list li:hover { 
   font-size: 24px;
   background-color: white;
   color:black;
 }
 
-
-.menu ul {
+.menu-list {
     display: flex;
     justify-content: space-around;
 }
@@ -33,13 +32,12 @@
 .hamburger, #toggle{
     display: none;
 }
-
 @media  (max-width:570px) {
-    .menu ul {
+    .menu-list {
         display: none;
        
     }
-    .menu ul li:hover {
+    .menu-list li:hover {
         display: flex;
         justify-content: center;
         width: 100vw;
@@ -48,11 +46,13 @@
         display: block;
     }
 
+
     #toggle:checked + .menu-list {
         display: flex;
         justify-content: space-around;
         flex-direction: column;
         align-items: center;
     }
+
 }
 
