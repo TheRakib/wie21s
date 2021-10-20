@@ -245,8 +245,72 @@ for(var i=0; i<li.length; i++)
 // skriva ut sifforna i prislista diven
 var prislista = document.querySelector(".prisLista");
 prislista.textContent = "Totalt blir " + counter;
-
 var minValue = document.querySelector(".minValue")
 minValue.textContent = "Totalt blir " + mindreSiffror;
+*/
 
+
+// username, email, password 
+// userInfo  {usernane, email , password }
+
+/*
+var userInfo = {
+    username:"Randy Marsh",
+    email:"TregidyFirm@gmail.com",
+    password:"*********"
+}
+
+console.log(userInfo.username)
+console.log(userInfo.email)
+console.log(userInfo.password)
+*/
+
+/*
+var userInfo = {
+    username:"Randy Marsh",
+    email:"TregidyFirm@gmail.com",
+    password:"*********",
+    adress: {gatuadress: " bla bla bla", zipCode:12222, country:"sweden"},
+    shoppingList:["troja", "t-shirt", "skor"] // element 
+}
+
+console.log(userInfo.adress.zipCode);
+
+console.log(userInfo.shoppingList[1])
+
+** 
+*/
+
+// arguement 
+skrivaUt("hej hej" , 10)
+
+skrivaUt("hej", " user")
+
+skrivaUt(" HI", 22)
+
+skrivaUt(" Hello world ", 33)
+
+
+
+
+//function parameter // temperary value // template var
+function skrivaUt(vadsomHelstnamn,b) {
+    console.log(vadsomHelstnamn+ b)
+}
+
+/* 
+
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
+var userInfo = {
+    username:"Randy Marsh",
+    email:"TregidyFirm@gmail.com",
+    password:"*********",
+    adress: {gatuadress: " bla bla bla", zipCode:12222, country:"sweden"},
+    shoppingList:["troja", "t-shirt", "skor"] // element 
+}
+Övning 1: Loopa igenom shoppingList från userInfo objektet och skriva ut i consolen. 
+Övning 2: Skapa en function som kan ta 2 siffror som arguement och 
+skriva ut summa av de två siffror i consolen. 
+     2. Skriver du summan in i div tag i html 
+ 
 */
