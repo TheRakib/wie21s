@@ -200,23 +200,53 @@ var li1Converted= Number(li1)
 console.log(li1Converted+Number(li2)+Number(li3)+Number(li4)+Number(li5))
 
 */
+
+
+/*
 var li = document.querySelectorAll("li");
 console.log(li);
 //for loop.
 var counter = 0
 
-for(var i=0; i<5; i++)
+for(var i=0; i<li.length; i++)
 {
    console.log(Number(li[i].textContent))
     counter += Number(li[i].textContent) ;
    //plusa ihop sifforna 
-
 }
-
 console.log(counter)
+// skriva ut sifforna i prislista diven
+var prislista = document.querySelector(".prisLista");
+prislista.textContent = "Totalt blir " + counter;
+*/
+//kl. 11.00
 
+
+
+/*
+
+var li = document.querySelectorAll("li");
+
+var counter = 0
+var mindreSiffror= 0
+
+for(var i=0; i<li.length; i++)
+{
+    if(Number( li[i].textContent  ) > 50)
+    {
+         counter += Number(li[i].textContent) ;
+    }
+   //plusa ihop sifforna 
+   else {
+       console.log( Number(li[i].textContent))
+       mindreSiffror += Number(li[i].textContent)
+   }
+}
 // skriva ut sifforna i prislista diven
 var prislista = document.querySelector(".prisLista");
 prislista.textContent = "Totalt blir " + counter;
 
-//kl. 11.00
+var minValue = document.querySelector(".minValue")
+minValue.textContent = "Totalt blir " + mindreSiffror;
+
+*/
