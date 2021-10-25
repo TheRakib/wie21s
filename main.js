@@ -1,3 +1,5 @@
+/*
+
 /* 
 // https://www.khanacademy.org/computing/computer-programming/programming 
 
@@ -328,7 +330,7 @@ var number = 1000;
 var number = 100000;
 */
 //let och const 
-
+/*
 const number = 1000;  // deklaration 
 //number = 10;  // initialization 
 
@@ -336,7 +338,7 @@ const number = 1000;  // deklaration
 
 console.log(number)
 
-
+*/
 
 // https://www.geeksforgeeks.org/javascript-operators/ 
 
@@ -388,8 +390,20 @@ for( let i = namnList.length -1 ; i<namnList.length; i--){
 // {   block   }
 
 // övning 1: loopa igenom 100 till 0
-// övning 2: loopa igenom 0 till 100;
 
+/* for(var i=100; i>=0; i--) {
+    console.log(i);
+}
+
+
+
+
+// övning 2: loopa igenom 0 till 100;
+for(var i =0; i<=100; i++)
+{
+    console.log(i);
+}
+ */
 /* 
 // function deklaration
  function skrivaUt() {
@@ -419,7 +433,7 @@ console.log("return value" , returnedValue)
 
 
 // DOM : document object model 
-
+/*
 const listOne = document.querySelector("#li-1");
 
 //console.log(Number(listOne.textContent))
@@ -444,13 +458,13 @@ section.textContent =" hello från section "
  * Element deletion using js
  * 
 ***************************************/
-
+/*
 const ul = document.querySelector("ul") // parent element
 
 const listTwo = document.querySelector("#li-2") // väljer vi child
 
 ul.removeChild(listTwo); // remove child element
-
+*/
 // CRUD : create , read, update and delete
 
 
@@ -464,6 +478,7 @@ const btn = document.querySelector(".btn")
 btn.addEventListener("click", function eventListen() { console.log("Hello från click")})
 */
 
+/*
 const btn = document.querySelector(".btn");
 
 function eventListen() {
@@ -482,22 +497,68 @@ function addNumbers(e) {
 
      
      let inputNumTwo = document.querySelector("#num-2").value
+
      inputNumTwo = ""
+
+     
      
      console.log(Number(inputNumOne) + Number(inputNumTwo))
      
 }
 
+
+*/
 // Övning 3: skriva ut summan av dem två talen i en div tagg i html document 
+function addTwoNumbers(e) {
+e.preventDefault();
 
-const addNumberBtn= document.querySelector(".addNumber")
+let inputOne= document.querySelector("#num-1").value;
+let inputTwo= document.querySelector("#num-2").value
 
-addNumberBtn.addEventListener("click", addNumbers)
+let summa = Number(inputOne) + Number(inputTwo);
+
+const div = document.querySelector(".minValue")
+
+div.textContent = summa
+
+
+}
+
+const button = document.querySelector(".addNumber")
+
+button.addEventListener("click", addTwoNumbers)
 
 /* 
 Övning 4: 
-Skapa en html formulär 
+Skapa ett html formulär 
 ta in username, email , phoneNumber från user 
 Skriva ut dem i en div tagg i html document
 
 */
+
+function readUserInfo(e) {
+ e.preventDefault();
+
+
+let username= document.querySelector("#username").value
+
+let email = document.querySelector("#email").value
+
+let tel = document.querySelector("#tel").value;
+
+
+const div = document.querySelector(".userInfo");
+
+div.textContent = "Username: " +  username + " email: " + email + " mobile: " + tel;
+
+
+
+
+  
+
+
+
+}
+
+
+document.querySelector(".Form-button").addEventListener("click", readUserInfo)
