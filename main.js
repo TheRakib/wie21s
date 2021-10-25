@@ -475,3 +475,26 @@ function eventListen() {
 
 btn.addEventListener("click", eventListen)
 
+function addNumbers(e) {
+     e.preventDefault()
+     const inputNumOne = document.querySelector("#num-1").value
+
+     
+     const inputNumTwo = document.querySelector("#num-2").value
+
+     console.log(Number(inputNumOne) + Number(inputNumTwo))
+}
+
+// Övning 3: skriva ut summan av dem två talen i en div tagg i html document 
+
+const addNumberBtn= document.querySelector(".addNumber")
+
+addNumberBtn.addEventListener("click", addNumbers)
+
+/* 
+Övning 4: 
+Skapa en html formulär 
+ta in username, email , phoneNumber från user 
+Skriva ut dem i en div tagg i html document
+
+*/
