@@ -445,11 +445,11 @@ section.textContent =" hello från section "
  * 
 ***************************************/
 
-const ul = document.querySelector("ul") // parent 
+const ul = document.querySelector("ul") // parent element
 
 const listTwo = document.querySelector("#li-2") // väljer vi child
 
-ul.removeChild(listTwo); // remove child
+ul.removeChild(listTwo); // remove child element
 
 // CRUD : create , read, update and delete
 
@@ -476,13 +476,16 @@ function eventListen() {
 btn.addEventListener("click", eventListen)
 
 function addNumbers(e) {
+
      e.preventDefault()
      const inputNumOne = document.querySelector("#num-1").value
 
      
-     const inputNumTwo = document.querySelector("#num-2").value
-
+     let inputNumTwo = document.querySelector("#num-2").value
+     inputNumTwo = ""
+     
      console.log(Number(inputNumOne) + Number(inputNumTwo))
+     
 }
 
 // Övning 3: skriva ut summan av dem två talen i en div tagg i html document 
