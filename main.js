@@ -281,6 +281,7 @@ console.log(userInfo.shoppingList[1])
 ** 
 */
 
+/*
 // arguement 
 skrivaUt("hej hej" , 10)
 
@@ -297,6 +298,7 @@ skrivaUt(" Hello world ", 33)
 function skrivaUt(vadsomHelstnamn,b) {
     console.log(vadsomHelstnamn+ b)
 }
+*/
 
 /* 
 
@@ -314,3 +316,162 @@ skriva ut summa av de två siffror i consolen.
      2. Skriver du summan in i div tag i html 
  
 */
+
+/*
+var number; // var definition/deklaration
+
+number= 10;  // Initialization 
+
+
+var number = 1000;
+var number = 1000;
+var number = 100000;
+*/
+//let och const 
+
+const number = 1000;  // deklaration 
+//number = 10;  // initialization 
+
+//number = 100000 // initalization //assignment 
+
+console.log(number)
+
+
+
+// https://www.geeksforgeeks.org/javascript-operators/ 
+
+//10 =="10"
+// == 
+// ===
+// ! 
+// <
+// > 
+// =>
+// =<
+
+/*
+// vilkorsats: 
+if(10=="10") {
+    console.log("den här raden kommer att köras")
+}
+else 
+{
+
+}
+*/
+
+//  10=="10" ?  console.log("true") : console.log("else ")
+
+
+
+// loop : for , map  , filter , foreach 
+
+/*
+const namnList = ["Erik", "Philip", "tom" ]
+
+console.log(namnList[0])
+console.log(namnList[1])
+console.log(namnList[2])
+
+for( let i = namnList.length -1 ; i<namnList.length; i--){
+
+    //console.log(i)
+    console.log(namnList[i])
+}
+
+*/
+
+
+// i+=1 === i++
+
+// for (start av loopen; vilkor; i++/ökning/minskning av start value) 
+// {   block   }
+
+// övning 1: loopa igenom 100 till 0
+// övning 2: loopa igenom 0 till 100;
+
+/* 
+// function deklaration
+ function skrivaUt() {
+     console.log("vi försöker skriva ut nåt") 
+ }
+
+
+ //function anropning / call a function 
+skrivaUt()
+// till kl. 10.00 
+
+// parameter// tillfällig variable 
+              // typescript 
+function addNumber(a, b){
+    
+    console.log(a/b)
+    return 100
+}
+// arguement
+
+var returnedValue = addNumber(2000, 200)
+
+console.log("return value" , returnedValue)
+// return values 
+
+*/
+
+
+// DOM : document object model 
+
+const listOne = document.querySelector("#li-1");
+
+//console.log(Number(listOne.textContent))
+//console.log(listOne.innerHTML)
+// Number("10" )
+
+/************************************** 
+ * Element creation with js 
+ * 
+***************************************/
+
+/*
+//vi skapar en element och pusha detta i html 
+const section = document.createElement("section")
+const body = document.querySelector("body")
+body.appendChild(section)
+section.textContent =" hello från section "
+
+*/
+
+/************************************** 
+ * Element deletion using js
+ * 
+***************************************/
+
+const ul = document.querySelector("ul") // parent 
+
+const listTwo = document.querySelector("#li-2") // väljer vi child
+
+ul.removeChild(listTwo); // remove child
+
+// CRUD : create , read, update and delete
+
+
+/************************************** 
+ * JS event listener
+***************************************/
+
+/*
+const btn = document.querySelector(".btn")
+
+btn.addEventListener("click", function eventListen() { console.log("Hello från click")})
+*/
+
+const btn = document.querySelector(".btn");
+
+function eventListen() {
+    const section = document.createElement("section")
+    const body = document.querySelector("body")
+    body.appendChild(section)
+    section.textContent = " hello från section "
+}
+
+btn.addEventListener("click", eventListen)
+
