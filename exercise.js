@@ -53,4 +53,15 @@ const summa= document.querySelector(".summa")
 summa.textContent = Calculate(100, 50)
 
 
+
 /* document.querySelector(".summa").textContent = Calculate(100, 50)*/ 
+
+// function expression 
+var count = (a, b)=> { 
+    console.log(a+b) 
+    return a + b
+}
+
+// hur ska vi anropa funktionen 
+//doMath(1,2)
+count(10,20)
