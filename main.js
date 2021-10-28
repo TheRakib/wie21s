@@ -552,6 +552,13 @@ const div = document.querySelector(".userInfo");
 div.textContent = "Username: " +  username + " email: " + email + " mobile: " + tel;
 
 
+/*
+
+array 
+object 
+for 
+
+*/
 
 
   
