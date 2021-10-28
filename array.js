@@ -13,12 +13,14 @@ console.log(lista)
 // ta bort value från en lista 
 lista.pop();
 
+lista.splice(2, 3);
 
-console.log(lista)
+
+// + och , när man blandar text med object/array
+console.log("efter splice " , lista) // coersion /tvång konvertering 
 
 // filter , 
 /*
-
 const filteratLista = lista.filter( function (e) {
 
     return e>44
@@ -26,10 +28,10 @@ const filteratLista = lista.filter( function (e) {
 */
 const filteratLista = lista.filter(  (e)=> e>44)
 
-console.log(filteratLista)
+console.log("filteratLista " , filteratLista)
 
 //map
-lista.map( (e) =>console.log(e))
+lista.map( (e) =>console.log("map lista " , e))
 
 
 //  function 
@@ -37,7 +39,7 @@ function doSomething() {
     console.log("do something")
 }
 
-doSomething()
+//doSomething()
 
 // Arrow function: ()=> {console.log("hej ")}
 // annonymous function 
@@ -46,7 +48,9 @@ doSomething()
 const name = "Rakib";
 // split()
 let convertedName = name.split("")
+console.log(convertedName);
 const reversedName= convertedName.reverse();
 const stringName = reversedName.join("")
 console.log(stringName)
 //name.split("").reverse().join("") // function/method chaining 
+//Regex MDN  

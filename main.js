@@ -557,15 +557,11 @@ div.textContent = "Username: " +  username + " email: " + email + " mobile: " + 
 array 
 object 
 for 
-
 */
-
-
-  
-
-
-
 }
 
 
 document.querySelector(".Form-button").addEventListener("click", readUserInfo)
+
+
+// addEventListener("click", checkPassword)
