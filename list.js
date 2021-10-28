@@ -5,7 +5,23 @@
 function addToList(event) {
     event.preventDefault();
 
-   console.log(event)
+
+    // läs in data från input 
+    const listItem = document.querySelector("#list-Item").value;
+
+    console.log(listItem)
+
+    // skapa en li för varje input läsning 
+
+   const li =document.createElement("li");
+   li.textContent = listItem;
+    // pusha li till .list-item div(parent)
+
+    const listDiv = document.querySelector(".list-items");
+
+    listDiv.appendChild(li)
+
+  
 }
 
 
