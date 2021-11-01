@@ -1,50 +1,30 @@
-//console.log("hello from list js")
-//var listItems;
-//console.log(listItems)
+
+//const li= document.createElement("li")
 function addToList(event) {
     event.preventDefault();
-    const listItems=[]
+     const listItems=[]
     // läs in data från input 
     const listItem = document.querySelector("#list-Item").value;
-    //console.log(listItem);
+      
     listItems.push(listItem);
-    // skapa en li för varje input läsning 
-   // const li =document.createElement("li");
-   // li.textContent = listItem;
-    // pusha li till .list-item div(parent)
-   // const listDiv = document.querySelector(".list-items");
-   // listDiv.appendChild(li)
- //console.log(listItems)
- const li = document.createElement("li")
- const listDiv = document.querySelector(".list-items")
-       listDiv.appendChild(li);
-for( var i = 0; i<listItems.length; i++)
-{
-   
-       li.textContent= listItem;
-       
+    
+   // console.log(listItems)
+    const li = document.createElement("li");
+    const List= document.querySelector(".list-items")
+    List.appendChild(li);
+
+    //Loopa igenom
+    listItems.map( (e)=> {
+        li.textContent = e;
+     })
 }
-/*
-// alt. lössning
-listItems.map( (e)=> {
-       const li = document.createElement("li")
-       li.textContent= listItem;
-       const listDiv = document.querySelector(".list-items")
-       listDiv.appendChild(li);
-    })
-*/
-
-}
-//console.log(listItems)
-
-// implementering av array i li 
-
 
 
 document.querySelector(".list-btn").addEventListener("click", addToList);
 
 
 // local variable vs global variable 
+
 
 //deklarerat och initialerat variable 
  
@@ -74,23 +54,26 @@ console.log(username);
 //create a h2 element
 const h2= document.createElement("h2");
 // set attribute 
-h2.setAttribute("class", "h2-class");
+h2.setAttribute("id", "h2-idnamn");
 
 // lägga till text i h2 
 h2.textContent="hello "
 
 //html tagg 
-h2.innerHTML="<span> hej </span>"
+h2.innerHTML="<span> hej </span>  <li> list one </li>"
 // skriva ut h2 element 
 console.log(h2);
 
+const span = document.querySelector("span")
+//const = document.querySelector("body");
 
-const body= document.querySelector("body");
+//body.appendChild(h2);
 
-body.appendChild(h2);
-
+const h2id = document.querySelector("#h2-idnamn")
 // removeChild 
-// body.removeChild(h2)
+ //body.removeChild(h2id)
+
+ h2id.removeChild(span)
 
 
 
