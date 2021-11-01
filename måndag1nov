@@ -46,7 +46,9 @@ lista = lista.filter( e => e%2).concat(lista.filter(e => e%2 === 0));
 Nästa lektion:
 JS upprepning 
 Array methods 
-Js object upprepning och fort. 
+Js object upprepning och fort. loopa igenom keys , value
 /* enkel todo */
 
-
+Lektion efter:
+Npm, 
+sass npm 
