@@ -6,6 +6,35 @@
 * Embedded array 
 * Embedded Object
 * Function expression 
+
+    *** Variable : let , const, var  
+    *** datatyper : number, string/text, true/false, float/decimal tal/10.233
+    *** loop: for loop, map, filter 
+    *** villkorsats: if, else 
+    *** function: Arrow function , annonymous function, function expression, method 
+    *** list: simple list, Embedded list/multi dimentional array/list
+    *** object: simple object, Embedded object
+
+Web frontend API/browser API:
+    *** document 
+          .queryselector() . textContent/.innerHTML
+    *** .addEventListner("click", nånFunction)
+    *** Skapa element: document.createElement()
+                       document.setAttribute("id", "idname")
+
+    ***  Remove child/element: 
+                        .removeChild();
+    
+
+
+var lista = [1,2,3,4,5,6,7,8,9,10]
+lista = lista.filter( e => e%2).concat(lista.filter(e => e%2 === 0));
+
+
+
+
+
+
 /** JS övningar **/
 
 

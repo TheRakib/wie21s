@@ -55,3 +55,23 @@ console.log(summa);
 
 
 
+
+// copy ett object till annat object 
+let personInfo= {
+    name:"Kalle",
+    address:" abc gatan "
+}
+
+let personInfo2 = {
+    shoppingList: "personens shopping list "
+}
+// spread ... 
+personInfo = { ...personInfo, ...personInfo2} 
+console.log(personInfo);
+
+
+// copy list / spread ...   //advanced list copying 
+let list1= [12,4,5,6, 299]
+list1 = [...list1, "nytt value"]
+console.log(list1)
+
