@@ -4,10 +4,12 @@ function addToList(event) {
     event.preventDefault();
      const listItems=[]
     // läs in data från input 
-    const listItem = document.querySelector("#list-Item").value;
+    const listItem = document.querySelector("#list-Item");
       
-    listItems.push(listItem);
     
+    listItems.push(listItem.value);
+    
+    listItem.value="";
    // console.log(listItems)
     const li = document.createElement("li");
     const List= document.querySelector(".list-items")
